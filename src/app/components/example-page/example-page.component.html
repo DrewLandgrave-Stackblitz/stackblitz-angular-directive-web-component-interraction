@@ -1,0 +1,9 @@
+<button (click)="doButton()">Click Me</button>
+<form [formGroup]="form">
+<advtech-panel  label="Hardcoded Fields">
+    <advtech-text-input advtechWcFormControl formControlName="master" #master label="Master Field"></advtech-text-input>
+    <advtech-text-input advtechWcFormControl formControlName="sync" #sync label="Sync Field" advtechSyncField [parent]="master" [self]="sync" appendTarget='mat-form-field'></advtech-text-input>
+</advtech-panel>
+</form>
+
+<div #mainColumn></div>
