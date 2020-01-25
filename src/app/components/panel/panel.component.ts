@@ -1,5 +1,5 @@
 import {Component, OnInit, Input, ViewChild, ViewContainerRef, ViewRef} from '@angular/core';
-import {CustomComponent} from 'src/app/interfaces/custom-component.interface';
+import {CustomComponent} from '../../interfaces/custom-component.interface';
 import {WrapperComponent} from '../wrapper/wrapper.component';
 
 @Component({

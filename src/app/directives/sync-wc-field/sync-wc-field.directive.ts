@@ -1,5 +1,5 @@
 import {Directive, ElementRef, Input, Renderer2, AfterViewInit} from '@angular/core';
-import {CustomFormComponent} from 'src/app/interfaces/custom-form-component.interface';
+import {CustomFormComponent} from '../../interfaces/custom-form-component.interface';
 import {CustomWcFormComponentInterface} from '../../interfaces/custom-wc-form-component.interface';
 import {SyncFieldDirective} from '../sync-field/sync-field.directive';
 

@@ -1,5 +1,5 @@
 import {Injectable, ComponentFactoryResolver, ViewContainerRef, ComponentRef} from '@angular/core';
-import { WrapperComponent } from 'src/app/components/wrapper/wrapper.component';
+import { WrapperComponent } from '../../components/wrapper/wrapper.component';
 
 @Injectable({
   providedIn: 'root'

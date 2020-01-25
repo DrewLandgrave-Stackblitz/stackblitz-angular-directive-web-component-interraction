@@ -1,8 +1,8 @@
 import {AfterViewInit, Component, ComponentRef, OnInit, Renderer2, ViewChild, ViewContainerRef} from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
-import {AdvtechTextInputComponent} from 'src/app/components/advtech-text-input/advtech-text-input.component';
-import {ComponentWrapperLoaderService} from 'src/app/services/component-wrapper-loader/component-wrapper-loader.service';
-import {EnvConfigService} from 'src/app/services/env-config/env-config.service';
+import {AdvtechTextInputComponent} from '../../components/advtech-text-input/advtech-text-input.component';
+import {ComponentWrapperLoaderService} from '../../services/component-wrapper-loader/component-wrapper-loader.service';
+import {EnvConfigService} from '../../services/env-config/env-config.service';
 import {SyncWcFieldDirective} from '../../directives/sync-wc-field/sync-wc-field.directive';
 import {WrapperComponent} from '../wrapper/wrapper.component';
 
